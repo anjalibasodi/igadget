@@ -7,6 +7,7 @@
 	
 	.ProductActionAdd {
 		margin-top:40px;
+		line-height: 18px;
 	}
 }
 
@@ -23,10 +24,10 @@
 .mw_toggler_content ul li{
 	@include _blockContent;
 	.mw_arrow {
-		//@include _plus_minus_arrow("arrow_next.png");
 		@include sprites-arrow_next;
 		display: inline-block;
 		float: right;
+		margin: 5px;
 	}
 }
 

@@ -52,6 +52,9 @@ $('./body') {
 					move("../div[@id='Menu']","../div[@id='Header']")
 					$("./div[@id='Menu']"){
 						attribute("data-ur-toggler-component","content")
+						$(".//li/a") {
+							insert("span",class:"mw_arrow")
+						}
 					}
 					
 				}

@@ -106,6 +106,12 @@ header._header {
 		color: #3D211A;
 		display: block;
 	}
+	.mw_arrow {
+		@include sprites-arrow_next;
+		display: inline-block;
+		float: right;
+		margin: 5px 10px;
+	}
 }
 
 #SideCategoryList h2 {
