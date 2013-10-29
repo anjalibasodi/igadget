@@ -38,7 +38,7 @@ $('./body') {
 								remove("../label")
 							}
 							$("./input[@class='Button']"){
-								attribute("src","")
+								attribute("src",asset("images/transparent.png"))
 								#attribute("type","")
 							}
 						}
