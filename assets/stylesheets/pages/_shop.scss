@@ -1,0 +1,75 @@
+.mw_details{
+	float: right;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+    width: 50%;
+	
+	.ProductActionAdd {
+		margin-top:40px;
+	}
+}
+
+
+
+.ShopByPrice {
+	@include _categories_toggler;
+}
+
+.BrandList {
+	@include _categories_toggler;
+}
+
+.mw_toggler_content ul li{
+	@include _blockContent;
+	.mw_arrow {
+		//@include _plus_minus_arrow("arrow_next.png");
+		@include sprites-arrow_next;
+		display: inline-block;
+		float: right;
+	}
+}
+
+._category_heading h2 {
+	font-size: 30px;
+	margin: 10px 0px 0px 10px;
+	color: #034285;
+}
+
+.mw_category_ProductList li{
+	height: 200px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: #EDEBEB;
+    height: 140px !important;
+    margin: 10px;
+    width: 90% !important;
+	border-radius:5px 5px 5px 5px;
+}
+
+.mw_category_ProductImage {
+	width: 40% !important;
+	float: left;
+	padding-top: 10px;
+	margin-left: 7px;
+}
+
+.SortBox form {
+	display: block;
+	margin: 10px 10px 0px 10px;
+	border-radius: 5px;
+	background-color: #8C2603;
+	padding: 8px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	position: relative;
+	#sort {
+		background-color: #f5f2e1;
+		position: absolute;
+		right: 20px;
+		top: 8px;
+		
+	}
+}

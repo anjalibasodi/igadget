@@ -33,6 +33,7 @@
 div[data-ur-carousel-component='view_container'] {
   width:100%;
   overflow-x: hidden;
+   position: relative;
 }
 div[data-ur-carousel-component="scroll_container"] {
   display:block;

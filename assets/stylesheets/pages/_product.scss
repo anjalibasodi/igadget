@@ -1,0 +1,124 @@
+.ProductMain {
+overflow: hidden;
+	background-color: #EDEBEB;
+	padding: 10px;
+	margin: 10px;
+}
+
+.ProductDetailsGrid .DetailRow {
+	overflow: hidden;
+	border-bottom: solid 1px #C2C0C0;
+	.Label {
+		width:40%;
+		float: left;
+		padding: 5px 0px;
+	}
+	.Value {
+		width:40%;
+		float: right;
+		padding: 5px 0px;
+	}
+}
+
+#ProductDetails h2{
+	@include mw_h3;
+}
+
+.ProductAddToCart {
+	.DetailRow {
+			border-bottom: none;
+	}
+	.AddCartButton {
+		padding-top: 10px !important;
+	}
+}
+.BulkDiscount {
+	padding: 10px 0px;
+}
+
+.ProductDescription {
+	h3{
+		@include mw_h3;
+	}
+	.ProductDescriptionContainer {
+		padding: 10px;
+	}
+}
+
+#ProductByCategory ,#SimilarProductsByCustomerViews{
+	h3{
+		@include mw_h3;
+	}
+	.FindByCategory {
+		padding: 10px;
+		ul li {
+			text-decoration: underline;
+		}
+	}
+}
+#ProductReviews {
+	a {
+		display: block;
+		float: right;
+		margin-right: 10px;
+	}
+	h3{
+		@include mw_h3;
+	}
+	.BlockContent p{
+		padding: 10px;
+	}
+}
+
+.zoomWindow, .zoomPup, .zoomPreload {
+	display: none;
+}
+
+.ProductThumb, .ProductThumbImage {
+	height: auto !important;
+	width: 100% !important;
+}
+
+.productOptionViewProductPickListWithImage{
+	.scrollContainer {
+		.image {
+			width:10%;
+			float: left;
+			padding: 5px 0px;
+		}
+		.input {
+			width:70%;
+			float: right;
+			padding: 5px 0px;
+		}	
+		tr {
+			border-bottom: 1px dotted #C2C0C0;
+		}
+	}
+}
+
+
+.productAttributeConfigurablePickListSet {
+	overflow: hidden;
+	border-bottom: 1px solid #C2C0C0;
+	.productAttributeLabel {
+		width:40%;
+		float: left;
+		padding: 5px 0px;
+	}
+	.productAttributeValue {
+		width:40%;
+		float: right;
+		padding: 5px 0px;
+	}
+}
+
+.productAttributeConfigurablePickListProduct{
+	border-bottom: 1px solid #C2C0C0;
+	.productOptionViewProductPickList {
+		padding: 10px 10px;
+		ul li {
+			padding-top: 5px;
+		}
+	}
+}

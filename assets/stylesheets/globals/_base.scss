@@ -1,0 +1,52 @@
+// Carousel
+div[data-ur-carousel-component='view_container'] {
+  width:100%;
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+}
+*[data-ur-carousel-component="scroll_container"] {
+  display:block;
+  clear:both;
+  margin-left:0px;
+}
+*[data-ur-carousel-component="scroll_container"] > * {
+  display:inline-block;
+  float:left;
+}
+
+div[data-ur-carousel-component="button"]{
+    display: inline-block;
+}
+div[data-ur-carousel-component="button"][data-ur-state="disabled"] {
+  opacity: .3;
+}
+
+a[data-ur-carousel-component="item"] {
+  img {
+    width:320px;
+    height:214px;
+  }
+}
+
+#LayoutColumn1 [data-ur-toggler-component="button"] {
+	&[data-ur-state="disabled"] {
+		.mw_togglerImage{
+			//@include _plus_minus_arrow("plus.png");
+			@include sprites-plus;
+			display:inline-block;
+			float: right;
+			margin: 5px 10px 0px 0px;
+			//padding-top: 10px;
+		}
+	}
+  &[data-ur-state="enabled"] {
+   .mw_togglerImage{
+		//@include _plus_minus_arrow("minus.png");
+		@include sprites-minus;
+		display:inline-block;
+		float: right;
+		margin: 5px 10px 0px 0px;
+	}
+  }
+}

@@ -1,6 +1,6 @@
 // Reset file for standardizing the page
-// @import "globals/_reset";
-
+@import "globals/_reset";
+@import "globals/_sprites";
 // Import Bourbon
 @import "globals/bourbon/_bourbon.scss";
 
@@ -24,3 +24,5 @@
 
 // Pages
 @import "pages/_home";
+@import "pages/_shop";
+@import "pages/_product";

@@ -3,3 +3,40 @@
 ._home {
   
 }
+
+
+.FeaturedProducts h2 ,.NewProducts  h2{
+	text-align:center;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.ProductList li{
+	height: 300px;
+	width: 100px;
+	padding-left: 50px;
+}
+
+.ProductActionAdd {
+	
+	background: image-url("ProductActionAdd.gif") no-repeat 0px center;
+	a{
+		margin-left: 10px;
+		color: white;
+		display: inline-block;
+	}
+}
+
+.ProductDetails{
+	line-height: 1em;
+}
+
+#HomeFeaturedProducts, #HomeNewProducts {
+	border-bottom: solid 1px grey;
+	margin: 0 15px;
+}
+
+#LayoutColumn2 .BlockContent{
+	margin-top: 10px;
+}
