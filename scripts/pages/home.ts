@@ -13,11 +13,7 @@ $("/html/body")	{
 							attribute("data-ur-set","carousel")
 							attribute("data-ur-carousel-component", "view_container")
 							insert("div", class: "mw_dots",data-ur-carousel-component: "dots")
-							$("./div[@class='mw_dots']") {
-								insert("div",data-ur-carousel-component: "dot")
-								insert("div",data-ur-carousel-component: "dot")
-								insert("div",data-ur-carousel-component: "dot")
-							}
+							
 							$("./ul"){
 								attribute('data-ur-carousel-component','scroll_container')
 								$("./li"){
@@ -36,16 +32,7 @@ $("/html/body")	{
 							attribute("data-ur-set","carousel")
 							attribute("data-ur-carousel-component", "view_container")
 							insert("div", class: "mw_dots",data-ur-carousel-component: "dots")
-							$("./div[@class='mw_dots']") {
-								insert("div",data-ur-carousel-component: "dot")
-								insert("div",data-ur-carousel-component: "dot")
-								insert("div",data-ur-carousel-component: "dot")
-								insert("div",data-ur-carousel-component: "dot")
-								insert("div",data-ur-carousel-component: "dot")
-								insert("div",data-ur-carousel-component: "dot")
-								insert("div",data-ur-carousel-component: "dot")
-								insert("div",data-ur-carousel-component: "dot")
-							}
+							
 							$("./ul"){
 								attribute('data-ur-carousel-component','scroll_container')
 								$("./li"){
