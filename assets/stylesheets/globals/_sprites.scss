@@ -1,0 +1,55 @@
+$sprites-url: url("/_moovweb_local_assets_/images/sprites.png");
+
+$sprites-width: 16px;
+$sprites-height: 50px;
+
+$sprites-arrow_next-x: 0px;
+$sprites-arrow_next-y: 0px;
+$sprites-arrow_next-width: 16px;
+$sprites-arrow_next-height: 16px;
+
+$sprites-minus-x: 0px;
+$sprites-minus-y: -17px;
+$sprites-minus-width: 16px;
+$sprites-minus-height: 16px;
+
+$sprites-plus-x: 0px;
+$sprites-plus-y: -34px;
+$sprites-plus-width: 16px;
+$sprites-plus-height: 16px;
+
+@mixin sprites-arrow_next() {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px 0px;
+  width: 16px;
+  height: 16px;
+}
+
+@mixin sprites-minus() {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -17px;
+  width: 16px;
+  height: 16px;
+}
+
+@mixin sprites-plus() {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -34px;
+  width: 16px;
+  height: 16px;
+}
+
+.sprites-arrow_next {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px 0px;
+  width: 16px;
+  height: 16px;
+}
+
+.sprites-minus {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -17px;
+  width: 16px;
+  height: 16px;
+}
+
+.sprites-plus {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -34px;
+  width: 16px;
+  height: 16px;
+}

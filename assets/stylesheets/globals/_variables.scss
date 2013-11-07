@@ -1,0 +1,46 @@
+
+// Vertical Rhythm
+$base-font-size: 13px;
+$base-line-height: 24px;
+@include establish-baseline();
+
+@mixin _categories_toggler{
+	display: block;
+	margin: 10px 10px 0px 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	border:solid 1px #5E1B04;
+	h2 {
+		display: block;
+		background-color: #8C2603;
+		padding: 8px;
+		color: white;
+		font-weight: bold;
+		font-size: 15px;
+	}
+}
+
+@mixin _blockContent {
+	background-color: #f5f2e1;
+	border-bottom: 1px solid #c0bca3;
+	padding: 5px;
+	a {
+		color: #5E1B04;
+		font-weight: bold;
+	}
+}
+
+@mixin _plus_minus_arrow($img) {
+	display:inline-block;
+			background: image-url($img) no-repeat right center;
+			width: 15px;
+			height: 15px;
+			float: right;
+			padding: 10px 20px 0px 0px;
+}
+
+@mixin mw_h3 {
+	color: #034285;
+	font-size: 20px;
+	margin: 10px 0 0 10px;
+}
